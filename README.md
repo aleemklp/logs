@@ -2,6 +2,8 @@ This project peforms the log analytics using the ELK stacks by retrieving logs f
 
 STEP 1 - SETUP Docker Elastic Kibanaa
 
-cd docker-compose-elasticsearch-kibana
+cd docker-elk-nginx-tomcat-filebeat
+
 docker-compose up -d
+
 gets you elasticsearch running on localhost:9200 and kibana on localhost: 5601
