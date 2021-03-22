@@ -1,8 +1,6 @@
-This project contains React UI and Node Backend connecting to elastic search 6.4.2
+This project peforms the log analytics using the ELK stacks by retrieving logs from two applciations sources Tomcat and Ngnix using the Filebeat
 
-STEP 1 - SETUP Docker Elastic
-Prerequisites:
-docker desktop
+STEP 1 - SETUP Docker Elastic Kibanaa
 
 cd docker-compose-elasticsearch-kibana
 docker-compose up -d
